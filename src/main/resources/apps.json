@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Galaxy Drift Racers",
+        "studio": "Hypernova Studios",
+        "genre": "Racing",
+        "rating": 4.7,
+        "downloads": "300k+ Downloads",
+        "description": "In Galaxy Drift Racers, you pilot high-speed, futuristic spacecraft through breathtaking alien landscapes and treacherous intergalactic routes. Players compete in adrenaline-pumping races across asteroid belts, wormholes, and distant planets, each with unique gravity and environmental hazards. Customize your ship with advanced tech, boost through gravity wells, and outmaneuver rivals in a quest to become the fastest racer in the galaxy.",
+        "thumbnail": "app5_thumbnail.jpg"
+    },
+    {
+        "name": "Netflix",
+        "studio": "Net Studios",
+        "genre": "Streaming",
+        "rating": 4.8,
+        "downloads": "1M+ Downloads",
+        "description": "Watch all your favorite movies and shows on Netflix. Whether it's drama, action, or comedy, Netflix offers a variety of genres to choose from.",
+        "thumbnail": "app1_thumbnail.jpg"
+    },
+    {
+        "name": "Spotify",
+        "studio": "Spotify Inc.",
+        "genre": "Music",
+        "rating": 4.9,
+        "downloads": "1B+ Downloads",
+        "description": "Stream your favorite music from millions of tracks on Spotify. Create playlists, share with friends, and enjoy personalized music recommendations.",
+        "thumbnail": "app4_thumbnail.jpg"
+    },
+    {
+        "name": "Facebook",
+        "studio": "Meta Platforms",
+        "genre": "Social Media",
+        "rating": 4.2,
+        "downloads": "5B+ Downloads",
+        "description": "Stay connected with friends and family through Facebook. Share photos, videos, and updates, and join communities around the world.",
+        "thumbnail": "app2_thumbnail.jpg"
+    },
+    
+    {
+        "name": "Instagram",
+        "studio": "Meta Platforms",
+        "genre": "Social Media",
+        "rating": 4.5,
+        "downloads": "1B+ Downloads",
+        "description": "Capture and share your moments on Instagram. Follow friends, celebrities, and explore the world through beautiful imagery and video content.",
+        "thumbnail": "app3_thumbnail.jpg"
+    }
+
+]
