@@ -8,6 +8,7 @@ public class App {
     private String downloads;
     private String description;
     private String thumbnail;
+    private String logo;
   
 
     // Getters and Setters
@@ -66,4 +67,13 @@ public class App {
     public void setThumbnail(String thumbnail) {
         this.thumbnail = thumbnail;
     }
+
+    public String getLogo() {
+        return logo;
+    }
+
+    public void setLogo(String logo) {
+        this.logo = logo;
+    }
+    
 }

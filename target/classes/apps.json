@@ -6,7 +6,8 @@
         "rating": 4.7,
         "downloads": "300k+ Downloads",
         "description": "In Galaxy Drift Racers, you pilot high-speed, futuristic spacecraft through breathtaking alien landscapes and treacherous intergalactic routes. Players compete in adrenaline-pumping races across asteroid belts, wormholes, and distant planets, each with unique gravity and environmental hazards. Customize your ship with advanced tech, boost through gravity wells, and outmaneuver rivals in a quest to become the fastest racer in the galaxy.",
-        "thumbnail": "app5_thumbnail.jpg"
+        "thumbnail": "app5_thumbnail.jpg",
+        "logo": "app5_logo.png"
     },
     {
         "name": "Netflix",
@@ -15,7 +16,8 @@
         "rating": 4.8,
         "downloads": "1M+ Downloads",
         "description": "Watch all your favorite movies and shows on Netflix. Whether it's drama, action, or comedy, Netflix offers a variety of genres to choose from.",
-        "thumbnail": "app1_thumbnail.jpg"
+        "thumbnail": "app1_thumbnail.jpg",
+        "logo": "app1_logo.jpg"
     },
     {
         "name": "Spotify",
@@ -24,7 +26,8 @@
         "rating": 4.9,
         "downloads": "1B+ Downloads",
         "description": "Stream your favorite music from millions of tracks on Spotify. Create playlists, share with friends, and enjoy personalized music recommendations.",
-        "thumbnail": "app4_thumbnail.jpg"
+        "thumbnail": "app4_thumbnail.jpg",
+        "logo": "app4_logo.png"
     },
     {
         "name": "Facebook",
@@ -33,7 +36,8 @@
         "rating": 4.2,
         "downloads": "5B+ Downloads",
         "description": "Stay connected with friends and family through Facebook. Share photos, videos, and updates, and join communities around the world.",
-        "thumbnail": "app2_thumbnail.jpg"
+        "thumbnail": "app2_thumbnail.jpg",
+        "logo": "app2_logo.png"
     },
     
     {
@@ -43,7 +47,8 @@
         "rating": 4.5,
         "downloads": "1B+ Downloads",
         "description": "Capture and share your moments on Instagram. Follow friends, celebrities, and explore the world through beautiful imagery and video content.",
-        "thumbnail": "app3_thumbnail.jpg"
+        "thumbnail": "app3_thumbnail.jpg",
+        "logo": "app3_logo.jpg"
     }
 
 ]

@@ -15,6 +15,7 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.TextAlignment;
@@ -29,7 +30,7 @@ public class AppStoreApp extends Application {
     public void start(Stage primaryStage) {
         List<App> apps = null;
         try {
-            apps = AppLoader.loadApps("apps.json");  // Load JSON file
+            apps = AppLoader.loadApps("apps.json");
         } catch (IOException e) {
             System.err.println("Error loading app data: " + e.getMessage());
             e.printStackTrace();
@@ -50,7 +51,7 @@ public class AppStoreApp extends Application {
         appListVBox.setPrefWidth(appListScrollPane.getWidth());
         appListVBox.setStyle("-fx-background-color: #000000");
 
-        // Listen for width changes in the ScrollPane and adjust the VBox width
+        //listen for width changes in the ScrollPane and adjust the VBox width
         appListScrollPane.widthProperty().addListener((obs, oldVal, newVal) -> {
             appListVBox.setPrefWidth(newVal.doubleValue());
         });
@@ -72,7 +73,6 @@ public class AppStoreApp extends Application {
         HBox.setHgrow(appListScrollPane, Priority.NEVER); 
         HBox.setHgrow(appDetailsVBox, Priority.ALWAYS);
         
-
         VBox root = new VBox(mainContent);
         root.setPadding(new Insets(0));
         root.setStyle("-fx-background-color: #ffffff");
@@ -128,13 +128,19 @@ public class AppStoreApp extends Application {
         logoImageView.setFitHeight(100);
         logoImageView.setFitWidth(100);
 
-        InputStream logoImageStream = AppStoreApp.class.getResourceAsStream("/images/" + app.getThumbnail());
+        InputStream logoImageStream = AppStoreApp.class.getResourceAsStream("/images/" + app.getLogo());
         if (logoImageStream == null) {
-            System.out.println("Image not found for: " + app.getThumbnail() + ", using default.");
+            System.out.println("Image not found for: " + app.getLogo() + ", using default.");
             logoImageView.setImage(new Image(AppStoreApp.class.getResourceAsStream("/images/default_image.png")));
         } else {
             logoImageView.setImage(new Image(logoImageStream));
         }
+
+        // Create a rectangle with rounded corners and use it to clip the ImageView
+        Rectangle clip = new Rectangle(logoImageView.getFitWidth(), logoImageView.getFitHeight());
+        clip.setArcWidth(20); // Adjust these values for the desired corner radius
+        clip.setArcHeight(20);
+        logoImageView.setClip(clip);
 
         VBox headerVBox = new VBox(10);
 
