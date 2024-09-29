@@ -39,7 +39,6 @@
         "thumbnail": "app2_thumbnail.jpg",
         "logo": "app2_logo.png"
     },
-    
     {
         "name": "Instagram",
         "studio": "Meta Platforms",
@@ -49,6 +48,55 @@
         "description": "Capture and share your moments on Instagram. Follow friends, celebrities, and explore the world through beautiful imagery and video content.",
         "thumbnail": "app3_thumbnail.jpg",
         "logo": "app3_logo.jpg"
+    },
+    {
+        "name": "X",
+        "studio": "X Corp",
+        "genre": "Social Media",
+        "rating": 4.3,
+        "downloads": "2B+ Downloads",
+        "description": "Join the global conversation with X. Follow trending topics, tweet your thoughts, and stay updated with the latest news and events. Engage with diverse communities, share photos, videos, and GIFs, and discover stories as they unfold. With real-time updates, Twitter is the go-to platform for breaking news, sports, entertainment, and politics. Customize your feed by following influencers, celebrities, and news outlets, and join Spaces to have live audio conversations with users worldwide.",
+        "thumbnail": "app6_thumbnail.jpg",
+        "logo": "app6_logo.jpg"
+    },
+    {
+        "name": "TikTok",
+        "studio": "ByteDance",
+        "genre": "Entertainment",
+        "rating": 4.6,
+        "downloads": "2B+ Downloads",
+        "description": "Watch and create short videos on TikTok. Discover viral trends, music, and creative content shared by users around the world. Participate in fun challenges, explore new music, and showcase your creativity with easy-to-use editing tools, filters, and effects. TikTok's algorithm curates content tailored to your interests, ensuring a personalized and engaging experience. Whether you're a creator or a viewer, TikTok is the ultimate platform for entertainment and self-expression.",
+        "thumbnail": "app7_thumbnail.png",
+        "logo": "app7_logo.png"
+    },
+    {
+        "name": "YouTube",
+        "studio": "Google LLC",
+        "genre": "Video Streaming",
+        "rating": 4.7,
+        "downloads": "10B+ Downloads",
+        "description": "Watch and share videos on YouTube. Enjoy an endless stream of content, including music videos, tutorials, vlogs, gaming, and educational material. Subscribe to your favorite channels, comment on videos, and share your own content with the world. YouTube Premium offers an ad-free experience, offline downloads, and access to YouTube Music. Create playlists, explore trending videos, and dive into YouTube Originals for exclusive shows. Whether learning, laughing, or exploring, YouTube has something for everyone.",
+        "thumbnail": "app8_thumbnail.jpg",
+        "logo": "app8_logo.png"
+    },
+    {
+        "name": "WhatsApp",
+        "studio": "Meta Platforms",
+        "genre": "Communication",
+        "rating": 4.5,
+        "downloads": "5B+ Downloads",
+        "description": "Stay connected with friends and family through WhatsApp. Send messages, make voice and video calls, and share moments easily. Create group chats, send multimedia files, and express yourself with stickers, GIFs, and emojis. With end-to-end encryption, your conversations remain secure and private. Use WhatsApp Web to chat from your desktop and keep up with contacts across different devices. Communicate without barriers, whether you're across the street or across the globe.",
+        "thumbnail": "app9_thumbnail.png",
+        "logo": "app9_logo.jpg"
+    },
+    {
+        "name": "Slack",
+        "studio": "Slack Technologies",
+        "genre": "Productivity",
+        "rating": 4.6,
+        "downloads": "50M+ Downloads",
+        "description": "Collaborate with your team using Slack. Organize your work, communicate in real-time, and share files all in one place. Create channels for different projects, integrate with tools like Google Drive, Trello, and Zoom, and streamline your workflow. Use Slack's powerful search to find past messages and files instantly. With mobile and desktop apps, stay connected with your team from anywhere. Slack transforms how teams work, fostering a more productive and connected workplace.",
+        "thumbnail": "app10_thumbnail.jpg",
+        "logo": "app10_logo.png"
     }
-
 ]
